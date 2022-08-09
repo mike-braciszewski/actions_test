@@ -11,5 +11,5 @@ jobs:
         run: echo "Testing"
       - name: multiline script
         run: |
-          echo "line 1"
-          echo "line 2"
+          node -v
+          npm -v
